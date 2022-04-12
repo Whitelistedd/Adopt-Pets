@@ -1,8 +1,12 @@
+body {
+  background-color: rgb(197, 189, 189);
+}
+
 .nav-logo {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: white;
+  background: rgb(197, 189, 189);
 }
 
 .nav-links {
@@ -183,6 +187,19 @@ body {
   display: flex;
   column-gap: 8px;
   align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.errorPage img {
+  max-width: 50%;
+  max-width: 50%;
+}
+
+.errorPage {
+  text-align: center;
 }
 
 .button {
